@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { ArrowRight, Terminal } from "lucide-react";
+import { ArrowRight, FileText, Terminal } from "lucide-react";
 import { Button } from "./ui/button";
 
 export default function Hero() {
@@ -76,6 +76,11 @@ export default function Hero() {
             <Button asChild>
               <a href="https://codingwithrk.com/our-works" target="_blank">
                 View Work <ArrowRight className="ml-2 w-5 h-5" />
+              </a>
+            </Button>
+            <Button asChild variant="outline">
+              <a href="/PAPPALA_RAJ_KUMAR_Resume.pdf" download>
+                My Resume <FileText className="ml-2 w-5 h-5" />
               </a>
             </Button>
           </motion.div>
