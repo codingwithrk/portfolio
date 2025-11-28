@@ -135,6 +135,7 @@ export default function Hero() {
                 <span className="text-white"> =&gt; [</span>
                 <span className="text-[#98C379]">'Laravel'</span>,
                 <span className="text-[#98C379]">'Vue'</span>
+                <span className="text-[#98C379]">'Flutter'</span>
                 <span className="text-white">]</span>
               </div>
               <div className="pl-4 text-white text-start">]);</div>

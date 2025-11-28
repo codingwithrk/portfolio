@@ -4,6 +4,7 @@ type Skill = {
   name: string;
   percentage: number;
   iconSlug: string;
+  color: string; // added color
 };
 
 type Category = {
@@ -15,46 +16,96 @@ const skillCategories: Category[] = [
   {
     title: "Languages",
     skills: [
-      { name: "PHP", percentage: 99, iconSlug: "php" },
-      { name: "JavaScript", percentage: 95, iconSlug: "javascript" },
-      { name: "GoLang", percentage: 60, iconSlug: "go" },
+      { name: "PHP", percentage: 99, iconSlug: "php", color: "#777BB4" },
+      {
+        name: "JavaScript",
+        percentage: 95,
+        iconSlug: "javascript",
+        color: "#F7DF1E",
+      },
+      { name: "GoLang", percentage: 60, iconSlug: "go", color: "#00ADD8" },
     ],
   },
   {
     title: "Frameworks",
     skills: [
-      { name: "Laravel", percentage: 99, iconSlug: "laravel" },
-      { name: "Yii2", percentage: 80, iconSlug: "yii" },
-      { name: "Vue.js", percentage: 90, iconSlug: "vuedotjs" },
-      { name: "Nuxt.js", percentage: 90, iconSlug: "nuxt" },
-      { name: "Alpine.js", percentage: 99, iconSlug: "alpinedotjs" },
-      { name: "Livewire", percentage: 97, iconSlug: "livewire" },
+      {
+        name: "Laravel",
+        percentage: 99,
+        iconSlug: "laravel",
+        color: "#FF2D20",
+      },
+      { name: "Yii2", percentage: 80, iconSlug: "yii", color: "#007BFF" },
+      {
+        name: "Vue.js",
+        percentage: 90,
+        iconSlug: "vuedotjs",
+        color: "#42B883",
+      },
+      { name: "Nuxt.js", percentage: 90, iconSlug: "nuxt", color: "#00DC82" },
+      {
+        name: "Alpine.js",
+        percentage: 99,
+        iconSlug: "alpinedotjs",
+        color: "#8BC0D0",
+      },
+      {
+        name: "Livewire",
+        percentage: 97,
+        iconSlug: "livewire",
+        color: "#FB70A9",
+      },
     ],
   },
   {
     title: "Frontend",
     skills: [
-      { name: "HTML", percentage: 100, iconSlug: "html5" },
-      { name: "CSS", percentage: 100, iconSlug: "css" },
-      { name: "Bootstrap", percentage: 100, iconSlug: "bootstrap" },
-      { name: "TailwindCSS", percentage: 100, iconSlug: "tailwindcss" },
-      { name: "jQuery", percentage: 100, iconSlug: "jquery" },
+      { name: "HTML", percentage: 100, iconSlug: "html5", color: "#E44D26" },
+      { name: "CSS", percentage: 100, iconSlug: "css", color: "#1572B6" },
+      {
+        name: "Bootstrap",
+        percentage: 100,
+        iconSlug: "bootstrap",
+        color: "#7952B3",
+      },
+      {
+        name: "TailwindCSS",
+        percentage: 100,
+        iconSlug: "tailwindcss",
+        color: "#38BDF8",
+      },
+      { name: "jQuery", percentage: 100, iconSlug: "jquery", color: "#0769AD" },
     ],
   },
   {
     title: "Mobile/Desktop",
     skills: [
-      { name: "Flutter", percentage: 80, iconSlug: "flutter" },
-      { name: "NativePHP", percentage: 90, iconSlug: "php" },
+      {
+        name: "Flutter",
+        percentage: 80,
+        iconSlug: "flutter",
+        color: "#47C5FB",
+      },
+      { name: "NativePHP", percentage: 90, iconSlug: "php", color: "#777BB4" },
     ],
   },
   {
     title: "Databases",
     skills: [
-      { name: "MySQL", percentage: 96, iconSlug: "mysql" },
-      { name: "MongoDB", percentage: 80, iconSlug: "mongodb" },
-      { name: "SQLite3", percentage: 95, iconSlug: "sqlite" },
-      { name: "PgSQL", percentage: 90, iconSlug: "postgresql" },
+      { name: "MySQL", percentage: 96, iconSlug: "mysql", color: "#4479A1" },
+      {
+        name: "MongoDB",
+        percentage: 80,
+        iconSlug: "mongodb",
+        color: "#47A248",
+      },
+      { name: "SQLite3", percentage: 95, iconSlug: "sqlite", color: "#003B57" },
+      {
+        name: "PgSQL",
+        percentage: 90,
+        iconSlug: "postgresql",
+        color: "#336791",
+      },
     ],
   },
 ];
@@ -90,35 +141,28 @@ export default function Skills() {
                 {category.title}
               </span>
             </h3>
+
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {category.skills.map((skill, skillIndex) => (
                 <div
                   key={skill.name}
-                  className="bg-white border border-gray-100 p-6 rounded-2xl hover:border-[#FF2D20]/30 hover:shadow-lg hover:shadow-red-500/5 transition-all duration-300 group"
+                  className="bg-white border border-gray-100 p-6 rounded-2xl hover:shadow-lg transition-all duration-300 group"
+                  style={{
+                    borderColor: skill.color,
+                  }}
                 >
                   <div className="flex items-center gap-4 mb-4">
                     <img
-                      src={`https://cdn.simpleicons.org/${skill.iconSlug}/${
-                        skill.name === "PHP"
-                          ? "777BB4"
-                          : skill.name === "Laravel"
-                          ? "FF2D20"
-                          : "default"
-                      }`}
+                      src={`https://cdn.simpleicons.org/${skill.iconSlug}`}
                       alt={skill.name}
                       className="w-10 h-10 group-hover:scale-110 transition-transform duration-300"
                       onError={(e) => {
                         (e.target as HTMLImageElement).style.display = "none";
                       }}
                     />
+
                     <div className="flex justify-between flex-1">
-                      <span
-                        className={`font-medium ${
-                          skill.name === "PHP" || skill.name === "Laravel"
-                            ? "text-[#FF2D20] font-bold"
-                            : "text-gray-700"
-                        }`}
-                      >
+                      <span className="font-medium text-gray-700">
                         {skill.name}
                       </span>
                       <span className="text-gray-500 text-sm">
@@ -126,19 +170,18 @@ export default function Skills() {
                       </span>
                     </div>
                   </div>
+
+                  {/* Progress Bar */}
                   <div className="h-2 bg-gray-100 rounded-full overflow-hidden">
                     <motion.div
                       initial={{ width: 0 }}
                       whileInView={{ width: `${skill.percentage}%` }}
                       viewport={{ once: true }}
                       transition={{ duration: 1, delay: 0.1 * skillIndex }}
-                      className={`h-full rounded-full ${
-                        skill.name === "PHP"
-                          ? "bg-[#777BB4]"
-                          : skill.name === "Laravel"
-                          ? "bg-[#FF2D20]"
-                          : "bg-gradient-to-r from-[#FF2D20] to-[#777BB4]"
-                      }`}
+                      className="h-full rounded-full"
+                      style={{
+                        background: skill.color,
+                      }}
                     />
                   </div>
                 </div>

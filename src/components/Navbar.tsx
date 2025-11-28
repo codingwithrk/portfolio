@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Menu, X } from "lucide-react";
+import { Github, Menu, X } from "lucide-react";
 import { AnimatePresence, motion } from "motion/react";
 
 export default function Navbar() {
@@ -47,6 +47,16 @@ export default function Navbar() {
               ))}
             </ul>
           </div>
+          {/* GitHub Button */}
+          <a
+            href="https://github.com/codingwithrk/portfolio"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hidden md:flex p-2 rounded-full hover:bg-gray-100 transition"
+          >
+            <Github className="w-5 h-5 text-gray-800 hover:text-black me-2" />
+            <span>Open source</span>
+          </a>
 
           {/* Mobile Menu Button */}
           <div className="md:hidden">
