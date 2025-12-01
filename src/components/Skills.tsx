@@ -14,85 +14,85 @@ type Category = {
 
 const skillCategories: Category[] = [
   {
-    title: "Languages",
+    title: "🎄 Languages",
     skills: [
       { name: "PHP", percentage: 99, iconSlug: "php", color: "#777BB4" },
       {
         name: "JavaScript",
         percentage: 95,
         iconSlug: "javascript",
-        color: "#F7DF1E",
+        color: "#fbbf24",
       },
-      { name: "GoLang", percentage: 60, iconSlug: "go", color: "#00ADD8" },
+      { name: "GoLang", percentage: 60, iconSlug: "go", color: "#0891b2" },
     ],
   },
   {
-    title: "Frameworks",
+    title: "🎅 Frameworks",
     skills: [
       {
         name: "Laravel",
         percentage: 99,
         iconSlug: "laravel",
-        color: "#FF2D20",
+        color: "#dc2626",
       },
-      { name: "Yii2", percentage: 80, iconSlug: "yii", color: "#007BFF" },
+      { name: "Yii2", percentage: 80, iconSlug: "yii", color: "#0891b2" },
       {
         name: "Vue.js",
         percentage: 90,
         iconSlug: "vuedotjs",
-        color: "#42B883",
+        color: "#16a34a",
       },
-      { name: "Nuxt.js", percentage: 90, iconSlug: "nuxt", color: "#00DC82" },
+      { name: "Nuxt.js", percentage: 90, iconSlug: "nuxt", color: "#22c55e" },
       {
         name: "Alpine.js",
         percentage: 99,
         iconSlug: "alpinedotjs",
-        color: "#8BC0D0",
+        color: "#0891b2",
       },
       {
         name: "Livewire",
         percentage: 97,
         iconSlug: "livewire",
-        color: "#FB70A9",
+        color: "#ec4899",
       },
     ],
   },
   {
-    title: "Frontend",
+    title: "✨ Frontend",
     skills: [
-      { name: "HTML", percentage: 100, iconSlug: "html5", color: "#E44D26" },
-      { name: "CSS", percentage: 100, iconSlug: "css", color: "#1572B6" },
+      { name: "HTML", percentage: 100, iconSlug: "html5", color: "#dc2626" },
+      { name: "CSS", percentage: 100, iconSlug: "css", color: "#0891b2" },
       {
         name: "Bootstrap",
         percentage: 100,
         iconSlug: "bootstrap",
-        color: "#7952B3",
+        color: "#7c3aed",
       },
       {
         name: "TailwindCSS",
         percentage: 100,
         iconSlug: "tailwindcss",
-        color: "#38BDF8",
+        color: "#06b6d4",
       },
-      { name: "jQuery", percentage: 100, iconSlug: "jquery", color: "#0769AD" },
+      { name: "jQuery", percentage: 100, iconSlug: "jquery", color: "#0369a1" },
     ],
   },
   {
-    title: "Mobile/Desktop",
+    title: "📱 Mobile/Desktop",
     skills: [
       {
         name: "Flutter",
         percentage: 80,
         iconSlug: "flutter",
-        color: "#47C5FB",
+        color: "#06b6d4",
       },
       { name: "NativePHP", percentage: 90, iconSlug: "php", color: "#777BB4" },
     ],
   },
   {
-    title: "Databases",
+    title: "💾 Databases",
     skills: [
-      { name: "MySQL", percentage: 96, iconSlug: "mysql", color: "#4479A1" },
+      { name: "MySQL", percentage: 96, iconSlug: "mysql", color: "#0891b2" },
       {
         name: "MongoDB",
         percentage: 80,
@@ -121,9 +121,13 @@ export default function Skills() {
           transition={{ duration: 0.5 }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl font-bold mb-4 text-gray-900">Skills</h2>
+          <h2 className="text-4xl font-bold mb-4 text-gray-900">
+            🎁 My Tech Arsenal 🎁
+          </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            A curated list of technologies I use to build robust applications.
+            A festive collection of technologies I use to build robust and
+            magical applications. Each tool in my workshop helps me craft the
+            perfect digital experience!
           </p>
         </motion.div>
 
@@ -137,7 +141,7 @@ export default function Skills() {
             className="mb-12"
           >
             <h3 className="text-2xl font-bold mb-6 text-gray-800">
-              <span className="border-b-2 border-[#FF2D20] inline-block">
+              <span className="border-b-4 border-red-600 inline-block pb-1">
                 {category.title}
               </span>
             </h3>

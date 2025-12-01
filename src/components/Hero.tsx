@@ -45,13 +45,13 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <h2 className="text-sm md:text-base font-semibold tracking-wider text-[#FF2D20] uppercase mb-2">
-              Full Stack Developer
+            <h2 className="text-sm md:text-base font-semibold tracking-wider text-red-600 uppercase mb-2">
+              🎄 Full Stack Developer | Spreading Code & Joy 🎄
             </h2>
             <h1 className="text-5xl md:text-7xl font-bold text-gray-900 leading-tight">
               Building <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FF2D20] to-[#777BB4]">
-                Digital Experiences
+              <span className="text-transparent bg-clip-text bg-linear-to-r from-red-600 to-green-600">
+                Festive Digital Experiences
               </span>
             </h1>
           </motion.div>
@@ -62,9 +62,10 @@ export default function Hero() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="text-xl text-gray-600 max-w-lg mx-auto md:mx-0 leading-relaxed"
           >
-            Hi, I'm Raj Kumar. I transform complex problems into elegant,
-            scalable, and user-friendly web applications using modern
-            technologies.
+            Ho Ho Ho! 🎅 I'm Raj Kumar. This festive season, I'm spreading joy
+            and code by transforming complex problems into elegant, scalable,
+            and user-friendly web applications using modern technologies. Merry
+            Coding! ✨
           </motion.p>
 
           <motion.div

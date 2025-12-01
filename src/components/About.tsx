@@ -36,37 +36,43 @@ export default function About() {
           />
 
           <h2 className="text-4xl font-bold mb-4 relative inline-block text-gray-900">
-            About Me
-            <span className="absolute bottom-0 left-0 w-1/2 h-1 bg-gradient-to-r from-[#FF2D20] to-[#777BB4] rounded-full"></span>
+            🎄 About Me - A Christmas Developer Story
+            <span className="absolute bottom-0 left-0 w-1/2 h-1 bg-linear-to-r from-red-600 to-green-600 rounded-full"></span>
           </h2>
 
           <div className="text-lg text-gray-600 space-y-4 leading-relaxed">
             <p>
               I am a dedicated{" "}
-              <span className="font-semibold text-[#FF2D20]">
+              <span className="font-semibold text-red-600">
                 Full Stack Developer
               </span>{" "}
               with a passion for building scalable and user-friendly
-              applications. With expertise in modern web technologies, I
-              transform ideas into reality through clean code and intuitive
-              design.
+              applications. Like Santa's workshop, I craft digital experiences
+              with care, expertise in modern web technologies, and a commitment
+              to excellence. This Christmas, I'm spreading code and joy! 🎅✨
             </p>
             <p>
               My journey in tech has been driven by curiosity and a desire to
               solve real-world problems. I love exploring new tools,
               contributing to open source, and continuously learning to stay
-              ahead in the ever-evolving tech landscape.
+              ahead in the ever-evolving tech landscape. Every holiday season
+              reminds me that coding, like Christmas, is about bringing joy and
+              magic to people's lives.
             </p>
             <p>
-              When I'm not coding, you can find me exploring new coffee shops,
-              reading tech blogs, or working on personal side projects.
+              When I'm not coding (or checking my code twice 😄), you can find
+              me exploring new coffee shops, reading tech blogs, working on
+              personal side projects, or enjoying festive celebrations with
+              family and friends.
             </p>
           </div>
 
           <div className="pt-4 flex justify-center gap-8">
-            <div className="text-center p-4 bg-white rounded-2xl border border-gray-100 shadow-lg shadow-blue-500/5">
-              <h3 className="text-3xl font-bold text-[#777BB4]">5+</h3>
-              <p className="text-gray-500 text-sm">Years Experience</p>
+            <div className="text-center p-4 bg-white rounded-2xl border-2 border-green-600 shadow-lg shadow-green-600/20">
+              <h3 className="text-3xl font-bold text-red-600">5+</h3>
+              <p className="text-gray-500 text-sm">
+                Years of Spreading Code Cheer 🎁
+              </p>
             </div>
           </div>
         </motion.div>
