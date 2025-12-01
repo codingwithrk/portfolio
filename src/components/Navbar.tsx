@@ -22,8 +22,10 @@ export default function Navbar() {
 
           <div className="flex items-center gap-2">
             <div className="w-3 h-3 rounded-full bg-red-600 animate-pulse" />
-            <h1 className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-red-600 to-green-600">
-              🎄 CodingwithRK 🎄
+            <h1 className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-red-600 to-green-600 flex">
+              <span className="hidden md:flex">🎄</span>
+              CodingwithRK
+              <span className="hidden md:flex">🎄</span>
             </h1>
           </div>
 
