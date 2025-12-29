@@ -24,13 +24,10 @@ export default function Contact() {
           transition={{ duration: 0.5 }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl font-bold mb-4">
-            🎄 Let's Connect This Christmas 🎄
-          </h2>
+          <h2 className="text-4xl font-bold mb-4">Let's Connect in 2026 🌟</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Have a festive project in mind or just want to say "Merry
-            Christmas"? I'd love to hear from you! Let's build something magical
-            together!
+            Have an exciting project in mind or just want to connect? I'd love
+            to hear from you! Let's build something amazing together!
           </p>
         </motion.div>
 
@@ -50,19 +47,19 @@ export default function Contact() {
           />
 
           <div className="bg-white p-8 rounded-3xl shadow-sm border border-gray-100 space-y-6">
-            <h3 className="text-2xl font-bold mb-6 bg-clip-text text-transparent bg-linear-to-r from-red-600 to-green-600">
-              📬 Holiday Contact Information
+            <h3 className="text-2xl font-bold mb-6 bg-clip-text text-transparent bg-linear-to-r from-blue-600 to-purple-600">
+              📬 Get In Touch
             </h3>
 
             <div className="flex items-center gap-4">
-              <div className="bg-red-600/10 p-3 rounded-full text-red-600">
+              <div className="bg-blue-600/10 p-3 rounded-full text-blue-600">
                 <Mail size={24} />
               </div>
               <div className="w-full text-center">
                 <p className="text-sm text-gray-500">Email</p>
                 <a
                   href="mailto:connect@codingwithrk.com"
-                  className="font-medium hover:text-red-600 transition-colors"
+                  className="font-medium hover:text-blue-600 transition-colors"
                 >
                   connect@codingwithrk.com
                 </a>
@@ -70,7 +67,7 @@ export default function Contact() {
             </div>
 
             <div className="flex items-center gap-4">
-              <div className="bg-green-600/10 p-3 rounded-full text-green-600">
+              <div className="bg-blue-600/10 p-3 rounded-full text-blue-600">
                 <MapPin size={24} />
               </div>
               <div className="w-full text-center">
@@ -80,14 +77,14 @@ export default function Contact() {
             </div>
 
             <div className="flex items-center gap-4">
-              <div className="bg-red-600/10 p-3 rounded-full text-red-600">
+              <div className="bg-blue-600/10 p-3 rounded-full text-blue-600">
                 <Phone size={24} />
               </div>
               <div className="w-full text-center">
                 <p className="text-sm text-gray-500">Phone</p>
                 <a
                   href="tel:+917036118293"
-                  className="font-medium hover:text-red-600 transition-colors"
+                  className="font-medium hover:text-blue-600 transition-colors"
                 >
                   +91 703 611 8293
                 </a>
@@ -96,12 +93,12 @@ export default function Contact() {
           </div>
 
           <div className="bg-white p-8 rounded-3xl shadow-sm border border-gray-100 flex flex-col justify-center">
-            <h3 className="text-2xl font-bold mb-6 bg-clip-text text-transparent bg-linear-to-r from-red-600 to-green-600">
-              🎅 Follow Me on My Journey
+            <h3 className="text-2xl font-bold mb-6 bg-clip-text text-transparent bg-linear-to-r from-blue-600 to-purple-600">
+              🤝 Follow My Journey
             </h3>
             <p className="text-gray-600 mb-8">
-              Connect with me on social media for festive updates, tech tips,
-              and holiday coding adventures!
+              Connect with me on social media for tech updates, coding insights,
+              and exciting project announcements!
             </p>
             <div className="flex gap-4 flex-wrap">
               {[

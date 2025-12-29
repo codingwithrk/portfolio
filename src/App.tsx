@@ -4,12 +4,12 @@ import About from "./components/About";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import Snowfall from "./components/Snowfall";
+import NewYear from "./components/NewYear";
 
 function App() {
   return (
     <main className="min-h-screen">
-      <Snowfall />
+      <NewYear />
       <Navbar />
       <Hero />
       <About />

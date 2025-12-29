@@ -14,7 +14,7 @@ type Category = {
 
 const skillCategories: Category[] = [
   {
-    title: "🎄 Languages",
+    title: "💻 Languages",
     skills: [
       { name: "PHP", percentage: 99, iconSlug: "php", color: "#777BB4" },
       {
@@ -27,7 +27,7 @@ const skillCategories: Category[] = [
     ],
   },
   {
-    title: "🎅 Frameworks",
+    title: "🚀 Frameworks",
     skills: [
       {
         name: "Laravel",
@@ -122,12 +122,12 @@ export default function Skills() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl font-bold mb-4 text-gray-900">
-            🎁 My Tech Arsenal 🎁
+            ⚡ My Tech Arsenal ⚡
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            A festive collection of technologies I use to build robust and
-            magical applications. Each tool in my workshop helps me craft the
-            perfect digital experience!
+            A comprehensive collection of technologies I use to build robust and
+            innovative applications. Each tool in my skillset helps me craft
+            exceptional digital experiences!
           </p>
         </motion.div>
 
@@ -141,7 +141,7 @@ export default function Skills() {
             className="mb-12"
           >
             <h3 className="text-2xl font-bold mb-6 text-gray-800">
-              <span className="border-b-4 border-red-600 inline-block pb-1">
+              <span className="border-b-4 border-blue-600 inline-block pb-1">
                 {category.title}
               </span>
             </h3>

@@ -10,10 +10,10 @@ export default function Hero() {
     >
       {/* Background Blobs - Updated Colors & Intensity */}
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden -z-10">
-        <div className="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-[#777BB4] rounded-full blur-[120px] opacity-20 animate-pulse" />{" "}
-        {/* PHP Purple */}
-        <div className="absolute bottom-[-10%] right-[-10%] w-[40%] h-[40%] bg-[#FF2D20] rounded-full blur-[120px] opacity-20 animate-pulse delay-1000" />{" "}
-        {/* Laravel Red */}
+        <div className="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-[#6366F1] rounded-full blur-[120px] opacity-20 animate-pulse" />{" "}
+        {/* Indigo */}
+        <div className="absolute bottom-[-10%] right-[-10%] w-[40%] h-[40%] bg-[#8B5CF6] rounded-full blur-[120px] opacity-20 animate-pulse delay-1000" />{" "}
+        {/* Purple */}
       </div>
 
       {/* Floating Icons */}
@@ -45,13 +45,13 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <h2 className="text-sm md:text-base font-semibold tracking-wider text-red-600 uppercase mb-2">
-              🎄 Full Stack Developer | Spreading Code & Joy 🎄
+            <h2 className="text-sm md:text-base font-semibold tracking-wider text-blue-600 uppercase mb-2">
+              🎆 Full Stack Developer | Transforming Code & Dreams 🎇
             </h2>
             <h1 className="text-5xl md:text-7xl font-bold text-gray-900 leading-tight">
               Building <br />
-              <span className="text-transparent bg-clip-text bg-linear-to-r from-red-600 to-green-600">
-                Festive Digital Experiences
+              <span className="text-transparent bg-clip-text bg-linear-to-r from-blue-600 to-purple-600">
+                Extraordinary Digital Experiences
               </span>
             </h1>
           </motion.div>
@@ -62,10 +62,10 @@ export default function Hero() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="text-xl text-gray-600 max-w-lg mx-auto md:mx-0 leading-relaxed"
           >
-            Ho Ho Ho! 🎅 I'm Raj Kumar. This festive season, I'm spreading joy
-            and code by transforming complex problems into elegant, scalable,
-            and user-friendly web applications using modern technologies. Merry
-            Coding! ✨
+            Welcome to 2026! 🎊 I'm Raj Kumar. As we step into a new year, I'm
+            committed to transforming complex problems into elegant, scalable,
+            and user-friendly web applications using modern technologies. Let's
+            make this year exceptional! 🚀
           </motion.p>
 
           <motion.div
@@ -144,7 +144,7 @@ export default function Hero() {
             </div>
           </div>
           {/* Decorative Elements behind the card */}
-          <div className="absolute top-10 right-10 w-full h-full bg-gradient-to-br from-[#FF2D20]/20 to-[#777BB4]/20 rounded-3xl -z-10 transform rotate-[5deg]" />
+          <div className="absolute top-10 right-10 w-full h-full bg-gradient-to-br from-[#6366F1]/20 to-[#8B5CF6]/20 rounded-3xl -z-10 transform rotate-[5deg]" />
           <div className="absolute -bottom-10 -left-10 animate-bounce">
             <Terminal className="w-24 h-24 text-gray-200 opacity-50" />
           </div>

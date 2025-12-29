@@ -18,14 +18,13 @@ export default function Navbar() {
       <nav className="sticky top-0 z-50 m-5">
         <div className="flex justify-between items-center border border-white/20 p-5 rounded-full bg-white/70 backdrop-blur-xl shadow-sm relative overflow-hidden">
           {/* Theme Gradient Border Bottom */}
-          <div className="absolute bottom-0 left-0 w-full h-0.5 bg-linear-to-r from-red-600 via-green-600 to-red-600"></div>
+          <div className="absolute bottom-0 left-0 w-full h-0.5 bg-linear-to-r from-blue-600 via-purple-600 to-blue-600"></div>
 
           <div className="flex items-center gap-2">
-            <div className="w-3 h-3 rounded-full bg-red-600 animate-pulse" />
-            <h1 className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-red-600 to-green-600 flex">
-              <span className="hidden md:flex">🎄</span>
+            <div className="w-3 h-3 rounded-full bg-blue-600 animate-pulse" />
+            <h1 className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600 flex">
               CodingwithRK
-              <span className="hidden md:flex">🎄</span>
+              <span className="hidden md:flex">✨</span>
             </h1>
           </div>
 
@@ -43,7 +42,7 @@ export default function Navbar() {
                     className="hover:text-black transition-colors relative group"
                   >
                     {item}
-                    <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-linear-to-r from-red-600 to-green-600 transition-all group-hover:w-full"></span>
+                    <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-linear-to-r from-blue-600 to-purple-600 transition-all group-hover:w-full"></span>
                   </motion.button>
                 </li>
               ))}
