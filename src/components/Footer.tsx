@@ -5,7 +5,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-5 flex flex-col md:flex-row justify-between items-center gap-4">
         <div className="text-center md:text-left">
           <h3 className="font-bold text-xl">
-            � CodingwithRK - Building Tomorrow's Web 2026 ✨
+            CodingwithRK - Building Tomorrow's Web 2026 ✨
           </h3>
         </div>
         <div className="text-sm">
