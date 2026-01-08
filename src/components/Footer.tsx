@@ -5,19 +5,18 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-5 flex flex-col md:flex-row justify-between items-center gap-4">
         <div className="text-center md:text-left">
           <h3 className="font-bold text-xl">
-            CodingwithRK - Building Tomorrow's Web 2026 ✨
+            CodingwithRK - Building Tomorrow's Web
           </h3>
         </div>
         <div className="text-sm">
-          &copy; {new Date().getFullYear()} CodingwithRK. Happy New Year 2026!
-          This website is{" "}
+          &copy; {new Date().getFullYear()} CodingwithRK. This website is{" "}
           <a
             href="https://github.com/codingwithrk/portfolio"
             className="underline hover:text-blue-600"
           >
             open source
           </a>
-          . Let's build amazing things together! 🚀
+          .
         </div>
       </div>
     </footer>

@@ -36,7 +36,7 @@ export default function About() {
           />
 
           <h2 className="text-4xl font-bold mb-4 relative inline-block text-gray-900">
-            ✨ About Me - Building Tomorrow's Solutions
+            About Me
             <span className="absolute bottom-0 left-0 w-1/2 h-1 bg-linear-to-r from-blue-600 to-purple-600 rounded-full"></span>
           </h2>
 
@@ -49,8 +49,8 @@ export default function About() {
               with a passion for building scalable and user-friendly
               applications. I craft digital experiences with precision,
               expertise in modern web technologies, and a commitment to
-              excellence. In 2026, I'm focused on innovation and creating
-              impactful solutions! 🚀✨
+              excellence. I focus on innovation and creating impactful
+              solutions.
             </p>
             <p>
               My journey in tech has been driven by curiosity and a desire to
@@ -60,19 +60,16 @@ export default function About() {
               code brings joy and creates meaningful impact in people's lives.
             </p>
             <p>
-              When I'm not coding (or checking my code twice 😄), you can find
-              me exploring new coffee shops, reading tech blogs, working on
-              personal side projects, or spending quality time with family and
-              friends.
+              When I'm not coding, you can find me exploring new coffee shops,
+              reading tech blogs, working on personal side projects, or spending
+              quality time with family and friends.
             </p>
           </div>
 
           <div className="pt-4 flex justify-center gap-8">
             <div className="text-center p-4 bg-white rounded-2xl border-2 border-blue-600 shadow-lg shadow-blue-600/20">
               <h3 className="text-3xl font-bold text-blue-600">5+</h3>
-              <p className="text-gray-500 text-sm">
-                Years of Delivering Excellence 🎯
-              </p>
+              <p className="text-gray-500 text-sm">Years of experience</p>
             </div>
           </div>
         </motion.div>

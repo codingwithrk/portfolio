@@ -14,7 +14,7 @@ type Category = {
 
 const skillCategories: Category[] = [
   {
-    title: "💻 Languages",
+    title: "Languages",
     skills: [
       { name: "PHP", percentage: 99, iconSlug: "php", color: "#777BB4" },
       {
@@ -27,7 +27,7 @@ const skillCategories: Category[] = [
     ],
   },
   {
-    title: "🚀 Frameworks",
+    title: "Frameworks",
     skills: [
       {
         name: "Laravel",
@@ -58,7 +58,7 @@ const skillCategories: Category[] = [
     ],
   },
   {
-    title: "✨ Frontend",
+    title: "Frontend",
     skills: [
       { name: "HTML", percentage: 100, iconSlug: "html5", color: "#dc2626" },
       { name: "CSS", percentage: 100, iconSlug: "css", color: "#0891b2" },
@@ -78,7 +78,7 @@ const skillCategories: Category[] = [
     ],
   },
   {
-    title: "📱 Mobile/Desktop",
+    title: "Mobile/Desktop",
     skills: [
       {
         name: "Flutter",
@@ -90,7 +90,7 @@ const skillCategories: Category[] = [
     ],
   },
   {
-    title: "💾 Databases",
+    title: "Databases",
     skills: [
       { name: "MySQL", percentage: 96, iconSlug: "mysql", color: "#0891b2" },
       {
@@ -121,9 +121,7 @@ export default function Skills() {
           transition={{ duration: 0.5 }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl font-bold mb-4 text-gray-900">
-            ⚡ My Tech Arsenal ⚡
-          </h2>
+          <h2 className="text-4xl font-bold mb-4 text-gray-900">My Skills</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
             A comprehensive collection of technologies I use to build robust and
             innovative applications. Each tool in my skillset helps me craft

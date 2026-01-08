@@ -24,7 +24,6 @@ export default function Navbar() {
             <div className="w-3 h-3 rounded-full bg-blue-600 animate-pulse" />
             <h1 className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600 flex">
               CodingwithRK
-              <span className="hidden md:flex">✨</span>
             </h1>
           </div>
 

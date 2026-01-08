@@ -8,14 +8,6 @@ export default function Hero() {
       id="home"
       className="min-h-screen flex items-center justify-center p-5 relative overflow-hidden"
     >
-      {/* Background Blobs - Updated Colors & Intensity */}
-      <div className="absolute top-0 left-0 w-full h-full overflow-hidden -z-10">
-        <div className="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-[#6366F1] rounded-full blur-[120px] opacity-20 animate-pulse" />{" "}
-        {/* Indigo */}
-        <div className="absolute bottom-[-10%] right-[-10%] w-[40%] h-[40%] bg-[#8B5CF6] rounded-full blur-[120px] opacity-20 animate-pulse delay-1000" />{" "}
-        {/* Purple */}
-      </div>
-
       {/* Floating Icons */}
       <motion.img
         src="https://cdn.simpleicons.org/php/777BB4"
@@ -46,7 +38,7 @@ export default function Hero() {
             transition={{ duration: 0.5 }}
           >
             <h2 className="text-sm md:text-base font-semibold tracking-wider text-blue-600 uppercase mb-2">
-              🎆 Full Stack Developer | Transforming Code & Dreams 🎇
+              Full Stack Developer | Transforming Code & Dreams
             </h2>
             <h1 className="text-5xl md:text-7xl font-bold text-gray-900 leading-tight">
               Building <br />
@@ -62,10 +54,9 @@ export default function Hero() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="text-xl text-gray-600 max-w-lg mx-auto md:mx-0 leading-relaxed"
           >
-            Welcome to 2026! 🎊 I'm Raj Kumar. As we step into a new year, I'm
-            committed to transforming complex problems into elegant, scalable,
+            I'm Raj Kumar. I transform complex problems into elegant, scalable,
             and user-friendly web applications using modern technologies. Let's
-            make this year exceptional! 🚀
+            build something exceptional together.
           </motion.p>
 
           <motion.div
